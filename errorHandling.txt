@@ -1,0 +1,20 @@
+What is Error Handling :
+
+What is error ?
+
+Any type of bug in the program is called as error. there are following types of errors
+  1. compile time error - error which occurs while we compile the program. easiest to find
+	a. syntax error - error in writing syntax of the program. for example: no semicolon, small letter at the place of capital letter etc.
+	b. semantic error - error in writing rule of the statement for example: a + b=c
+
+  2. runtime error - it occurs while we run the program. for example: divide by zero error , array index out of bound error etc etc. typical to find
+	
+  3. logical error - error in the logic of program. for example: we have used +(addition) at the place of - (subtraction). hardest to find.
+
+1.) Whenever a programmer develops a program, he will remove all compile time and logical errors but runtime error depends on various other factors that why it is not possible to remove all runtime  
+    errors so the program have to handle these errors in the program. and this is called error handling / exception handling.
+
+2.) In java error handling is done with the  help of 
+     a) try - in this block of the program we write all of the statements that are prone to error
+     b) catch - in this block of program we write error handling code.
+
